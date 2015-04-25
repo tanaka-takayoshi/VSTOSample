@@ -1,0 +1,87 @@
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.dll.config
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Antlr3.Runtime.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Security.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Web.Infrastructure.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Newtonsoft.Json.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Owin.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Helpers.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Mvc.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Optimization.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Razor.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Deployment.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Razor.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\WebGrease.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Security.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Helpers.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Mvc.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Optimization.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Razor.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Deployment.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Razor.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Antlr3.Runtime.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Newtonsoft.Json.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Helpers.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Mvc.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Optimization.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Razor.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.Deployment.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.Razor.resources.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\obj\Release\PowerPointVSTOSignalR.Server.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\obj\Release\PowerPointVSTOSignalR.Server.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.dll.config
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\PowerPointVSTOSignalR.Server.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Antlr3.Runtime.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Security.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Newtonsoft.Json.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Owin.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Helpers.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Mvc.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Optimization.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Razor.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Deployment.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Razor.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\WebGrease.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Microsoft.Owin.Security.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Helpers.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Mvc.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Optimization.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.Razor.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Deployment.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\System.Web.WebPages.Razor.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Antlr3.Runtime.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\Newtonsoft.Json.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Helpers.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Mvc.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Optimization.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.Razor.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.Deployment.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\bin\ja\System.Web.WebPages.Razor.resources.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\obj\Release\PowerPointVSTOSignalR.Server.csprojResolveAssemblyReference.cache
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\obj\Release\PowerPointVSTOSignalR.Server.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR.Server\obj\Release\PowerPointVSTOSignalR.Server.pdb

@@ -1,0 +1,23 @@
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\bin\Debug\CustomControlLibary.dll
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\bin\Debug\CustomControlLibary.pdb
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.csprojResolveAssemblyReference.cache
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\UserControl1.baml
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\UserControl1.g.cs
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary_MarkupCompile.cache
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.g.resources
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.Properties.Resources.resources
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.csproj.GenerateResource.Cache
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.dll
+c:\Users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.csprojResolveAssemblyReference.cache
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\UserControl1.baml
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\UserControl1.g.cs
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary_MarkupCompile.cache
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.g.resources
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.Properties.Resources.resources
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.csproj.GenerateResource.Cache
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\bin\Debug\CustomControlLibary.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\bin\Debug\CustomControlLibary.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\obj\Debug\CustomControlLibary.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\CustomControlLibary\bin\Debug\FlickrNet.dll

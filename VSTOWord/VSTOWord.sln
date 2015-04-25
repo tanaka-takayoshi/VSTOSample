@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTOWord", "VSTOWord\VSTOWord.csproj", "{F6387B80-9E39-403D-B3FA-F078FF6228CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlLibary", "CustomControlLibary\CustomControlLibary.csproj", "{BC9D4821-3CD4-42C8-B660-3C82CC0A6A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6387B80-9E39-403D-B3FA-F078FF6228CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6387B80-9E39-403D-B3FA-F078FF6228CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6387B80-9E39-403D-B3FA-F078FF6228CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6387B80-9E39-403D-B3FA-F078FF6228CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9D4821-3CD4-42C8-B660-3C82CC0A6A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9D4821-3CD4-42C8-B660-3C82CC0A6A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9D4821-3CD4-42C8-B660-3C82CC0A6A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9D4821-3CD4-42C8-B660-3C82CC0A6A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

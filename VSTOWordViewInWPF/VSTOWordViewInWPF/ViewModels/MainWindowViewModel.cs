@@ -1,0 +1,186 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.ComponentModel;
+using System.IO;
+using System.Reactive.Concurrency;
+using System.Reactive.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Documents;
+using System.Windows.Xps.Packaging;
+using Livet;
+using Livet.Commands;
+using Livet.Messaging;
+using Livet.Messaging.IO;
+using Livet.EventListeners;
+using Livet.Messaging.Windows;
+using Microsoft.Office.Interop.Word;
+using Microsoft.Win32;
+using VSTOWordViewInWPF.Models;
+
+namespace VSTOWordViewInWPF.ViewModels
+{
+    public class MainWindowViewModel : ViewModel
+    {
+        /* コマンド、プロパティの定義にはそれぞれ 
+         * 
+         *  lvcom   : ViewModelCommand
+         *  lvcomn  : ViewModelCommand(CanExecute無)
+         *  llcom   : ListenerCommand(パラメータ有のコマンド)
+         *  llcomn  : ListenerCommand(パラメータ有のコマンド・CanExecute無)
+         *  lprop   : 変更通知プロパティ(.NET4.5ではlpropn)
+         *  
+         * を使用してください。
+         * 
+         * Modelが十分にリッチであるならコマンドにこだわる必要はありません。
+         * View側のコードビハインドを使用しないMVVMパターンの実装を行う場合でも、ViewModelにメソッドを定義し、
+         * LivetCallMethodActionなどから直接メソッドを呼び出してください。
+         * 
+         * ViewModelのコマンドを呼び出せるLivetのすべてのビヘイビア・トリガー・アクションは
+         * 同様に直接ViewModelのメソッドを呼び出し可能です。
+         */
+
+        /* ViewModelからViewを操作したい場合は、View側のコードビハインド無で処理を行いたい場合は
+         * Messengerプロパティからメッセージ(各種InteractionMessage)を発信する事を検討してください。
+         */
+
+        /* Modelからの変更通知などの各種イベントを受け取る場合は、PropertyChangedEventListenerや
+         * CollectionChangedEventListenerを使うと便利です。各種ListenerはViewModelに定義されている
+         * CompositeDisposableプロパティ(LivetCompositeDisposable型)に格納しておく事でイベント解放を容易に行えます。
+         * 
+         * ReactiveExtensionsなどを併用する場合は、ReactiveExtensionsのCompositeDisposableを
+         * ViewModelのCompositeDisposableプロパティに格納しておくのを推奨します。
+         * 
+         * LivetのWindowテンプレートではViewのウィンドウが閉じる際にDataContextDisposeActionが動作するようになっており、
+         * ViewModelのDisposeが呼ばれCompositeDisposableプロパティに格納されたすべてのIDisposable型のインスタンスが解放されます。
+         * 
+         * ViewModelを使いまわしたい時などは、ViewからDataContextDisposeActionを取り除くか、発動のタイミングをずらす事で対応可能です。
+         */
+
+        /* UIDispatcherを操作する場合は、DispatcherHelperのメソッドを操作してください。
+         * UIDispatcher自体はApp.xaml.csでインスタンスを確保してあります。
+         * 
+         * LivetのViewModelではプロパティ変更通知(RaisePropertyChanged)やDispatcherCollectionを使ったコレクション変更通知は
+         * 自動的にUIDispatcher上での通知に変換されます。変更通知に際してUIDispatcherを操作する必要はありません。
+         */
+
+        public void Initialize()
+        {
+            IsBusy = false;
+        }
+
+
+        #region DocumentPagingSource変更通知プロパティ
+        private IDocumentPaginatorSource documentPaginatorSource;
+
+        public IDocumentPaginatorSource DocumentPaginatorSource 
+        {
+            get
+            { return documentPaginatorSource; }
+            set
+            {
+                if (documentPaginatorSource == value)
+                    return;
+                documentPaginatorSource = value;
+                RaisePropertyChanged();
+            }
+        }
+        #endregion
+
+
+        #region IsBusy変更通知プロパティ
+        private bool isBusy = false;
+
+        public bool IsBusy
+        {
+            get
+            { return isBusy; }
+            set
+            { 
+                if (isBusy == value)
+                    return;
+                isBusy = value;
+                RaisePropertyChanged();
+            }
+        }
+        #endregion
+
+
+        #region OpenFileCommand
+        private ViewModelCommand openFileCommand;
+
+        public ViewModelCommand OpenFileCommand
+        {
+            get { return openFileCommand ?? (openFileCommand = new ViewModelCommand(OpenFile)); }
+        }
+
+        public void OpenFile()
+        {
+            var openFileDialog = new OpenFileDialog
+            {
+                RestoreDirectory = true,
+                Filter = "Word documents(*.doc;*.docx)|*.doc;*.docx"
+            };
+
+            var result = openFileDialog.ShowDialog();
+            if (result == true)
+            {
+                if (openFileDialog.FileName.Length > 0)
+                {
+                    IsBusy = true;
+                    Observable.Start(() =>
+                    {
+                        var convertedXpsDoc = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString() + ".xps");
+                        var xpsDocument = ConvertWordToXps(openFileDialog.FileName, convertedXpsDoc);
+                        return xpsDocument;
+                    })
+                    .ObserveOnDispatcher()
+                    .Subscribe(doc =>
+                    {
+                        DocumentPaginatorSource = doc.GetFixedDocumentSequence();
+                    }, () =>
+                    {
+                        IsBusy = false;
+                    });
+                }
+            }
+        }
+        #endregion
+
+        private XpsDocument ConvertWordToXps(string wordFilename, string xpsFilename)
+        {
+            // Create a WordApplication and host word document
+            var wordApp = new Microsoft.Office.Interop.Word.Application();
+            try
+            {
+                wordApp.Documents.Open(wordFilename);
+
+                // To Invisible the word document
+                wordApp.Application.Visible = false;
+
+                // Minimize the opened word document
+                wordApp.WindowState = WdWindowState.wdWindowStateMinimize;
+
+                var doc = wordApp.ActiveDocument;
+
+                doc.SaveAs(xpsFilename, WdSaveFormat.wdFormatXPS);
+
+                var xpsDocument = new XpsDocument(xpsFilename, FileAccess.Read);
+                return xpsDocument;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error occurs, The error message is  " + ex.ToString());
+                return null;
+            }
+            finally
+            {
+                wordApp.Documents.Close();
+                ((_Application)wordApp).Quit(WdSaveOptions.wdDoNotSaveChanges);
+            }
+        }
+    }
+}

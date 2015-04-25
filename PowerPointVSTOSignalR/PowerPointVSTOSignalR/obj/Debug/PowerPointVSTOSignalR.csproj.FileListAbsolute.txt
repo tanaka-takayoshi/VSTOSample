@@ -1,0 +1,30 @@
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.dll.manifest
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.vsto
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Newtonsoft.Json.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Newtonsoft.Json.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.csprojResolveAssemblyReference.cache
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.Properties.Resources.resources
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.csproj.GenerateResource.Cache
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.dll.manifest
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\PowerPointVSTOSignalR.vsto
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.csprojResolveAssemblyReference.cache
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.Properties.Resources.resources
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.csproj.GenerateResource.Cache
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.dll
+C:\Users\t.tanaka\Documents\VSTOSample\PowerPointVSTOSignalR\PowerPointVSTOSignalR\obj\Debug\PowerPointVSTOSignalR.pdb

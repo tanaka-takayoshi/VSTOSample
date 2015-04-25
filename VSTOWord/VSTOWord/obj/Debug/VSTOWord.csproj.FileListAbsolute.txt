@@ -1,0 +1,29 @@
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\VSTOWord.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\VSTOWord.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\VSTOWord.dll.manifest
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\VSTOWord.vsto
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.csprojResolveAssemblyReference.cache
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.Properties.Resources.resources
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.csproj.GenerateResource.Cache
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\CustomControlLibary.dll
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\bin\Debug\CustomControlLibary.pdb
+c:\users\t.tanaka\documents\visual studio 2013\Projects\VSTOWord\VSTOWord\obj\Debug\VSTOWord.MyTaskPane.resources
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\VSTOWord.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\VSTOWord.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\VSTOWord.dll.manifest
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\VSTOWord.vsto
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\CustomControlLibary.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\CustomControlLibary.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.csprojResolveAssemblyReference.cache
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.MyTaskPane.resources
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.Properties.Resources.resources
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.csproj.GenerateResource.Cache
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.dll
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\obj\Debug\VSTOWord.pdb
+C:\Users\t.tanaka\Documents\VSTOSample\VSTOWord\VSTOWord\bin\Debug\FlickrNet.dll
