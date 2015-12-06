@@ -35,6 +35,7 @@ namespace VSTOWord
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
+            myTaskpane.MyControl.SendEvent -= MyControl_SendEvent;
         }
 
         #region VSTO で生成されたコード

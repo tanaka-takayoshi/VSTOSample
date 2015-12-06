@@ -19,6 +19,8 @@ SignalRを使って、WebサイトからPowerPointのスライドショーを操
 
 Wordのカスタムペイン領域にFlickrの画像検索と挿入をWPFで実装
 
+![](VSTO_demo.gif)
+
 # VSTOWordViewInWPF
 
 WPFのコントロールにWordドキュメントを描画。ファイルを選ぶと、Wordを非表示で実行して、XPSとして保存している。

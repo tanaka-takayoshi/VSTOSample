@@ -14,7 +14,7 @@ namespace VSTOWord
 {
     public partial class MyTaskPane : UserControl
     {
-        public UserControl1 MyControl { get; private set; }
+        internal UserControl1 MyControl { get; private set; }
         public MyTaskPane()
         {
             InitializeComponent();

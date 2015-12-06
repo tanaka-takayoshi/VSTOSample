@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.ServiceModel.Syndication;
 using System.Text;
@@ -25,12 +26,12 @@ namespace CustomControlLibary
     {
         private Flickr flickr;
         //WPF側のアクションからVSTOの処理を実行するために、イベントを公開する
-        public event EventHandler<string[]> SendEvent = (s, e) => { };
+        public event EventHandler<string[]> SendEvent;
         public UserControl1()
         {
             InitializeComponent();
             //TODO FlickrのAPIキーを指定
-            flickr = new Flickr("key");
+            flickr = new Flickr("faf16d8792c47d83361a76d6dcc84453");
         }
 
         public void Sync(string status)
@@ -43,18 +44,26 @@ namespace CustomControlLibary
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             statusText.Text = "executing...";
-            var photos = flickr.PhotosSearch(new PhotoSearchOptions
+            try
             {
-                Tags = textBox.Text
-            });
-            list.ItemsSource = photos.Select(p => new 
+                var photos = flickr.PhotosSearch(new PhotoSearchOptions
+                {
+                    Tags = textBox.Text
+                });
+                list.ItemsSource = photos.Select(p => new 
+                {
+                    p.Title,
+                    p.ThumbnailUrl,
+                    p.WebUrl,
+                    Command = new InsertCommand(p.Title, p.SmallUrl ?? p.Small320Url, SendEvent)
+                });
+                statusText.Text = "finished";
+            }
+            catch (Exception exception)
             {
-                p.Title,
-                p.ThumbnailUrl,
-                p.WebUrl,
-                Command = new InsertCommand(p.Title, p.SmallUrl ?? p.Small320Url, SendEvent)
-            });
-            statusText.Text = "finished";
+                Debug.WriteLine(exception);
+                statusText.Text = "error";
+            }
         }
 
         public class InsertCommand : ICommand
@@ -77,7 +86,7 @@ namespace CustomControlLibary
 
             public void Execute(object parameter)
             {
-                handler.Invoke(this, new []{title, url});
+                handler?.Invoke(this, new []{title, url});
             }
         }
     }
